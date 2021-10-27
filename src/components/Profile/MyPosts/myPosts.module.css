@@ -1,0 +1,13 @@
+.content{
+    display: grid;
+/*gap: 10px;*/
+}
+
+.ta {
+padding: 10px;
+}
+
+.buttons {
+    padding: 5px;
+}
+

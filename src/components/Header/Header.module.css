@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+    border-radius: 10px;
+    background-color: rgb(89, 125, 163);
+    display: grid;
+    justify-items: center;
+}
+
+.imag {
+    display: flex;
+    height: 110px;
+    justify-content: left;
+    border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.content {
+    width: 770px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 5px solid rgb(89, 125, 163);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.new{
+    color: aliceblue;
+    margin: 30px auto;
+}
+
+
+

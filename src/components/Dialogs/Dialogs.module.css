@@ -1,0 +1,63 @@
+.content {
+    /*width: 770px;*/
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr 3fr;
+    grid-template-areas: "dialog_item messages"
+"dialog_item messages";
+    justify-items: end;
+
+
+
+}
+
+.dialog_item {
+    grid-area: dialog_item;
+    width: 170px;
+    padding: 10px;
+    color: white;
+}
+
+/*.dialog_item .active {*/
+/*    background-color: greenyellow;*/
+/*    color: red;*/
+/*}*/
+
+/*.activeLink {*/
+
+/*}*/
+
+.dialog_item .dialog {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 125, 163);
+    border: 5px solid rgb(89, 125, 163);
+}
+
+.messages {
+    grid-area: messages;
+    padding: 10px;
+}
+
+.messages .message {
+    background-color: rgb(89, 125, 163);
+    margin: 5px;
+    border-radius: 5px;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px solid white;
+}

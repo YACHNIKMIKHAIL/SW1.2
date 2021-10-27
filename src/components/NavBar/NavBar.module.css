@@ -1,0 +1,35 @@
+.nav {
+    grid-area: navBar;
+    background-color: rgb(89, 125, 163);
+    border-radius: 10px;
+
+
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    grid-auto-flow: column;
+    min-height: 500px;
+
+
+}
+
+.links {
+    display: grid;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+
+.item a {
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+
+}
+
+.item a.activeLink {
+    background: white;
+    color: black;
+}

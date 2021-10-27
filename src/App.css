@@ -1,0 +1,17 @@
+.app-wrapper {
+    margin: 10px auto;
+    width: 1000px;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 110px 4fr;
+    grid-template-areas: "header header" "navBar profile";
+    grid-gap: 5px;
+}
+
+
+
+
+
+
+
